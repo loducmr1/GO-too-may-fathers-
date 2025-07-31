@@ -9,7 +9,7 @@ func main(){
 
 	fmt.Println("****** Enter 10 elements ******")
 	for i:= 1;i<=10;i++{
-		fmt.Printf(("Enter %d element: "),i)
+		fmt.Printf("Enter %d element: ",i)
 		fmt.Scan(&num[i-1])
 		sum += num[i-1]
 	}
