@@ -1,9 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"math"
-)
+import "fmt"
+import "math"
 
 func main(){
 	var num[10] float64
