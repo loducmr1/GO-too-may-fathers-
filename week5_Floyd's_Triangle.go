@@ -5,7 +5,6 @@ func main() {
 	fmt.Print("Enter the number of rows for Floyd's Triangle: ")
 	fmt.Scanln(&rows)
 	num := 1
-	fmt.Println("\nFloyd's Triangle:")
 	for i := 1; i <= rows; i++ {
 		for j := 1; j <= i; j++ {
 			fmt.Printf("%d ", num)
